@@ -22,14 +22,14 @@ https://www.sparkfun.com/products/11446	Triple Axis Accelerometer Breakout - ADX
 
 So here's what these different applications do:
 
-sayhi - just says hi back and from the RFDuino to the host device
-changeLED - sends an LED signals to the RFDuino to control an RGB LED
-receiveAcc - receives a accelerometer signal from the rfduino and moves a little ball around on the screen (pretty dull tbh)
+* sayhi - just says hi back and from the RFDuino to the host device
+* changeLED - sends an LED signals to the RFDuino to control an RGB LED
+* receiveAcc - receives a accelerometer signal from the rfduino and moves a little ball around on the screen (pretty dull tbh)
 
 There's another one that only run on the RFDuino:
 
-customID - runs on a device and sends a message to another device
-customIDdevice - runs on a device and sends a message to another device
+* customID - runs on a device and sends a message to another device
+* customIDdevice - runs on a device and sends a message to another device
 
 I have a hacked RFDuino install, so drop that in your Arduino (or Arduino.app) hardware/arduino folder. I also have a hacked Processing Android mode, so drop that in your Processing/modes folder to leverage features in more contemporary Android releases (i.e. v18+)
 
